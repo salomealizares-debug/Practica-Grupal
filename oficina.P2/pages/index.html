@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/style2.css">
+</head>
+<body>
+
+<div class="login-container">
+    <div class="login-box">
+        <h2>VSIAF - Login</h2>
+
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" placeholder="admin">
+
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password">
+
+        <button onclick="irATabla()">Aceptar</button>
+
+        <div class="link">
+            <a href="tabla.html">Ir a Oficina</a>
+        </div>
+    </div>
+</div>
+
+<script>
+function irATabla() {
+    window.location.href = "tabla.html";
+}
+</script>
+
+</body>
+</html>
