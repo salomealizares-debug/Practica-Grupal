@@ -83,7 +83,7 @@ td {
 tr:nth-child(even) td { background: #f4f8fc; } 
 tr:hover td { background: #d0e4f5; } 
 
-/* BOTONES */ 
+
 .botones { 
     text-align: center; 
     margin-top: 20px; 
