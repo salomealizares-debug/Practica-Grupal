@@ -1,0 +1,173 @@
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#dcdcdc;
+}
+
+.main{
+    width:1100px;
+
+    margin:auto;
+    margin-top:20px;
+
+    background:white;
+
+    border:2px solid #b5b5b5;
+
+    box-shadow:0px 0px 12px rgba(0,0,0,0.3);
+}
+
+.top-bar{
+    height:55px;
+
+    background:linear-gradient(to right,#000,#444);
+
+    color:white;
+
+    line-height:55px;
+
+    padding-left:20px;
+
+    font-size:28px;
+    font-weight:bold;
+}
+
+.banner img{
+    width:1100px;
+
+    height:220px;
+
+    display:block;
+}
+
+.container{
+    width:670px;
+
+    margin:auto;
+
+    margin-top:30px;
+    margin-bottom:30px;
+
+    background:#91cfff;
+
+    border-radius:10px;
+
+    box-shadow:0px 5px 12px rgba(0,0,0,0.3);
+
+    overflow:hidden;
+}
+
+.container h2{
+    margin:0;
+
+    padding:20px 30px;
+
+    font-size:45px;
+
+    color:#4043de;
+
+    border-bottom:3px solid #7ea9cf;
+}
+
+.form{
+    padding:15px;
+}
+
+.form-group{
+    margin-bottom:25px;
+}
+
+.form-group label{
+    display:inline-block;
+
+    width:270px;
+
+    font-size:20px;
+
+    color:#003c47;
+}
+
+.form-group input{
+    width:270px;
+    height:42px;
+
+    padding-left:10px;
+
+    font-size:15px;
+
+    border:1px solid #999;
+
+    border-radius:3px;
+
+    outline:none;
+
+    box-shadow: inset 2px 2px 1px rgba(0, 0, 0, 0.385);
+}
+
+.form-group input:focus{
+    border-color:#2d73b5;
+
+    box-shadow:0px 0px 8px rgba(45,115,181,0.5);
+}
+
+.login-footer{
+    background:#91cfff;
+
+    height:70px;
+
+    border-top:2px solid #acbbc6;
+}
+
+.nota{
+    float:left;
+
+    margin-left:15px;
+    margin-top:30px;
+
+    font-size:22px;
+
+    font-weight:bold;
+
+    color:#11198c;
+}
+
+.btn{
+    float:right;
+
+    width:120px;
+    height:40px;
+
+    margin-right:35px;
+    margin-top:17px;
+
+    font-size:22px;
+
+    border:2px solid #a9bcc2;
+
+    border-radius:2px;
+
+    cursor:pointer;
+
+    background:linear-gradient(to bottom,#6aa2f1,#c0cef9);
+
+    box-shadow:
+    0px 5px 5px rgba(0, 0, 0, 0.3),
+    inset 0px 7px 7px rgba(255,255,255,0.8);
+}
+
+
+
+
+.footer{
+    background:#0d3278;
+
+    color:rgb(230, 231, 233);
+
+    padding:20px;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    line-height:35px;
+}
